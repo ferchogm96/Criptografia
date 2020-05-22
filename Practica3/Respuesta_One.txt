@@ -1,0 +1,96 @@
+XNXAFNI 
+IYNLNWS 
+KBRGETQ 
+PZIIRXV
+MZHINNY 
+ABÑOFGM 
+AUVUUXV 
+IITLGXE
+ZBRHNVM 
+IYNTQOM
+AURQHXP 
+MINEETW
+BQMAÑEI 
+AURQHXP 
+MBDEETW 
+GGTDNFM
+IYFRSÑV 
+IFJATIK 
+ÓLQRTEI
+HMYNMQW
+YMXJHNM 
+XIXFVUW 
+EANGEEK 
+YMYJOXO   
+MLNXTQJ 
+IUFFRDÑ 
+IUUIEFJ 
+VMONOFF
+IZQECNR 
+SLQYILM 
+MUQQBNL 
+KWFNGHX
+WCZNDNT 
+PPQCIFN 
+IUONALM 
+MDUAOOB 
+IUNSOFV 
+MMZFÑBM 
+TPQRSBX 
+QBU
+II 17 ditancia, 26,
+MM 33, 13
+EET 21
+ET 61, 19
+MAU 28
+NM 10
+MX 5
+MI 15,34
+FN 17
+XV 21
+TQ 47
+
+tomamos la llave que es de longitud 7 por deducciones.
+
+
+Le aplicamos un cesar con fuerza bruta a cada columna y 
+hacemos el analisis de frecuencias de la columna 1 de las 7
+Lo mas repetido es la letra I 
+
+Lo mismo hacemos en la 2 de 7
+Lo mas repetido es la letra N 
+
+Lo mismo hacemos en la 3 de 7
+Lo mas repetido es la letra F 
+
+Lo mismo hacemos en la 4 de 7
+Lo mas repetido es la letra A 
+
+Lo mismo hacemos en la 5 de 7
+Lo mas repetido es la letra N 
+
+Lo mismo hacemos en la 6 de 7
+Lo mas repetido es la letra T 
+
+Lo mismo hacemos en la 7 de 7
+Lo mas repetido es la letra E 
+
+Dandonos la llave " INFANTE "
+XNXAFNI I YN LNWS KBR GETQ PZIIRXVMZHIN NYA BÑOF GM AUVUUXVI 
+ITLGXEZBR HNVMI YN TQ OM AUR QHX PM INEETW BQ MAÑEI AUR QHX PM BDEETW 
+G GTDN FM IYFRSÑVI FJ ATIKÓ LQRTEI HM YN MQ WYMXJ HNMXI XF VUWE ANGEE 
+KYM YJ OXOMLNXTQ JIUFFR DÑI UU IEFJVMONOF FIZQECN RS LQ YI L MMU QQBNLKW
+FNGHXW CZNDN T PP QCIFNIUONA L MM DUAO OBIU NSOF VMMZ FÑBM TPQRSB XQ BU
+
+*****MENSAJE CLARO DESCIFRADO******
+
+Pasaste a mi lado Con gran indiferencia Tus ojos ni siquiera 
+Voltearon hacia mí Te vi sin que me vierasTe hablé sin que me oyeras
+Y toda mi amargura Se ahogó dentro de mí Me duele hasta la vida Saber que me olvidaste Pensar que ni desprecios Merezca yo de ti Y sin embargo sigues Unida a mi existencia Y si vivo cien años
+Cien años pienso en ti
+
+
+
+
+
+

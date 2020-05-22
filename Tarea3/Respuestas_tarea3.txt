@@ -1,0 +1,28 @@
+Alumno: González Montiel Luis Fernando, 312275136
+Mi compañero Ezequiel Vite Martinez, es foraneo y me parece que ha tenido problemas de conexión a internet.
+Estuve esperando su parte de la tarea pero no se ha conectado en algunos días, por esta razón envío la Tarea incompleta.
+
+
+1.- Para el ver los del valor de Pi, correr el Ejercicio1.py y se imprimirá el resultado.
+	¿cuántos bytes se necesitan para guardar este número?
+	Se necesitan 14bytes para guardar ése número.
+
+2.- Correr Ejercicio2.py para ver el ejemplo ya programado.
+	a)	Basta con hacer un XOR entre C y el resultado de RC4(s|k)
+		ya que ambos conocen 'k' desde el incio, 'c' también pues se lo envian debe hacer un XOR como sigue:
+		decifrado = RC4(s|k) xor c
+	b)	
+	c) 	Con k hay 2^128 llaves posibles y 's' aleatorio hay 2^48 llaves posibles,
+		entonces hay 2^(128 + 48) posibles llaves que se podrían cifrar de diferente manera
+		asi que mientras mas se acerque el numero de mensajes enviados a esa cifra, 
+		más probable para que se repita el flujo generado.
+
+	d)	Por la llave privada 'k' hay 2^128 llaves posibles
+		y además con 's' aleatorio hay 2^48 llaves posibles, entonces
+		en total habría 2^(128 + 48) posibles llaves que se podrían cifrar de diferente manera
+
+		si se omite el aleatorio 's' únicamente abría 2^128 posibles maneras de cifrar 
+		un mensaje específico,
+
+3.- Correr Ejercicio3.py, intentar correr, y verificar los archivos que vienen en el directorio, llamados 
+	archivo_prubea.txt y archivo_prueba_cifrada.txt

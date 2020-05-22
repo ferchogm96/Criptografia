@@ -1,0 +1,46 @@
+
+
+GO TVZÑO VÑZTL WG VT FTONJT WG NÑAI OIFDLG OI BÑSGLI TNILWTLFG OI JT FÑNJI ESGFRI BÑG XSXST ÑO JSWTVZI WG VIU VTOKT GO TUESVVGLI TWTLZT TOESZÑT LINSO PVTNI A ZTVZI NILLGWIL
+
+Nos guiamos haciendo un analisis de frecuencias, ayudandonos de un programa que se adjuntara al archivo con el nombre de "contador.py" y no arrojo el indice que se muestra abajo, donde destacamos las mas aparecidas y guiandonos de el porcentaje de apariciones en los textos en español.
+
+e 	229188 	14,0%
+a 	200492 	12,2%
+o 	162512 	9,9%
+s 	125726 	7,7%
+n 	108440 	6,6%
+r 	100953 	6,2% 
+i 	90070 	5,5% 
+
+Pero haciendo muchos intentos donde creyendo que a T siendo la mas aparecida, nos confiabamos en que se podia sustituir con la E, pero no fue asi, no daba sentido ningun texto, asi que fuimos buscando el lugar de la E, hasta que encajo con sustituirla con la G y asi buscando mas formas encontramos el texto de Don Quijote que sabiendo asi lo primero, fue mas facil decifrar el resto.
+
+2A,2B,0C,1D,3e,5F,0H,4J,1K,0M,7N,8Ñ,1P,0Q,1R,8S,2U,7W,2X,0Y,7Z,
+
+20T * a
+16I * o
+12G * e
+11L * r
+11O * n
+10v * l
+z   * g
+ñ   * u
+w   * d
+f   * m
+n   * c
+a   * i
+h   * j
+d   * b
+b   * q
+s   * i
+e   * t
+r   * p
+x   * v
+U   * s
+k   * z
+p   * f
+
+
+
+
+"en algun lugar de la mancha de cuyo nombre no quiero acordarme no ha mucho tiempo que vivia un hidalgo de los lanza en astillero adarga antigua rocin flaco y galgo corredor."
+
