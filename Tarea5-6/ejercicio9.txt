@@ -1,0 +1,10 @@
+Versión 1.2
+Se hace la combinación MD5-SHA-1 en el elemento digitalmente
+firmado fue reemplazada por un hash simple negociado durante
+el handshake, que por defecto es SHA-1.
+
+Versión 1.3
+Ahora el Handshake es revisado a fin de proporcionar el modo 1-RTT.
+RTT:(round-trip time), tiempo que tarda un paquete de datos enviado
+desde un emisor en volver a este mismo emisor habiendo pasado por 
+el receptor de destino.

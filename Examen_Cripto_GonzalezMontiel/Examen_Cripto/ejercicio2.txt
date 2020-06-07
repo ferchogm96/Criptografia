@@ -1,0 +1,15 @@
+1.-Si el sistema no es teóricamente irrompible, al menos debe serlo en la práctica.
+2.-La efectividad del sistema no debe depender de que su diseño permanezca en secreto.
+3.-La clave debe ser fácilmente memorizable de manera que no haya que recurrir a notas escritas.
+4.-Los criptogramas deberán dar resultados alfanuméricos.
+5.-El sistema debe ser operable por una única persona.
+6.-El sistema debe ser fácil de utilizar.
+
+Luego has un ejercicio de historia contrafactual y elucubra que hubiera ocurrido si el sistema se hubiera mantenido.
+
+Tomaré como ejemplo el ataque al crucero alemán MAGDEBURG, los rusos atacaron al crucero y antes de ser capturado, el capitán quemó 3 de las 4 copias del código naval alemán, pero olvidó la copia que estaba en su cabina, la copia fue capturada y enviada a Gran Bretaña, con ésta captura, la marina logro detener todos los intentos de Alemania de utilizar su marina en el Mar del Norte durante La Primera Guerra Mundial.
+Aquí claramente se ve que ignoraron la máxima de Kerckhoffs número 3, de usar claves fáciles de memorizar para no escribirlas en notas.
+
+Historia contractual: Tal vez si no hubiera pasado ésto y hubieran tenido una mejor forma de cifrar, Alemania hubiera ganado más rápido la primera guerra mundial ya que hubiera podido hacer uso de sus navios con más útilidad.
+Aunque como vimos en la segunda guerra mundial, con Enigma, no fue suficiente tener un sistema de cifrado casi imposible de decifrar o almenos asi fue por muchos años, para ganar la guerra.
+Entonces éste caso solo quedará en el "hubiera".

@@ -1,0 +1,48 @@
+Cómo verificar si un entero positivo N, es una potencia de un número.
+Sea n = [logN]+1 = longitud en bits de N.
+#-------------------------------------------------
+#EJERCICIO A)
+Muestra que si N = m^e, para algunos enteros m,e > 1, entonces e < n.
+
+Tomemos N = m^e, entonces...
+log(N) = log(m^e), sacamos la e
+log(N) = e*log(m), si la despejamos, tenemos que...
+log(N)/log(m) = e , de esta forma es más fácil ver esta desigualdad
+log(N)/log(m) <  log(N) justo por la división de log(m)
+Hacemos un pequeño truco para ver unas desigualdades agregandoles un 1 mañosamente para lo que se busca...
+log(N)/log(m) + 1 <  log(N) + 1 , por obvias razones, podemos ver ésto sustiyendo e...
+log(N)/log(m) <  log(N)/log(m) + 1 <  log(N) + 1
+e < e+1 < log(N) + 1
+y para tener lo que buscamos más preciso, suponemos que  log(N)	+1 = n
+y nos queda lo que queremos demostrar
+e < e + 1 < n, es decir
+e < n.
+
+#----------------------------------------------
+#EJERCICIO B)
+Dados N y e, donde 2 ≤ e ≤ n+1, muestra cómo determinar si existe m tal que N = me
+Hint: Usa búsqueda binaria en el rango [2, N].
+
+def busquedaBinaria(N,e):
+	izquierdo = 0
+	derecho = 0
+	lista = list(range(2,N+1))
+	derecho = len(arr)-1
+	while(izquierdo <= derecho):
+		medio = (izquierdo + derecho)//2
+		potencia = pow(lista[medio],e)
+		if(potencia == N):
+			return lista[medio]
+		elif (N > p):
+			derecho = medio-1
+		else:
+			izquierdo = medio+1
+	return -1
+
+Este algoritmo funciona dividiendo a la mitad de la lista donde podría estar el elemento, hasta reducir las ubicaciones posibles a únicamente una, así podemos determinar si m es como N = m^e.
+
+#----------------------------------------------
+#EJERCICIO C)
+
+Dado N, muestra cómo determinar si N es una potencia de un entero.
+Como demostramos en el inciso A), podemos asegurar que e < n  si es de la forma N = m^e, y usando el código del inciso B), podemos saber si el número es potencia de un entero o no.

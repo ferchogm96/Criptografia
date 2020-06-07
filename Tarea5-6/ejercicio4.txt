@@ -1,0 +1,48 @@
+#EJERICIO A)
+"""
+Respuesta:  Un atacante podría situarse entre ambas máquinas
+y acordar una clave simétrica con cada una de las partes,
+haciéndose pasar por el host A de cara al host B y viceversa.
+Una vez establecidas las 2 claves simétricas, el atacante haría
+de puente entre los 2 hosts, descifrando toda la comunicación y
+volviéndola a cifrar para enviársela al otro host.
+"""
+#--------------------------------------------
+#EJERCICIO B)
+k = 10010 #2+16=18 A
+r = 01110 #2+4+8=14 A
+s = k^r
+s = 11100 #4+8+16=28 A->B
+t = 00011 #1+2=3 B
+u = s^t
+u = 11111 #16+8+4+2+1=31 B->A
+r = 01110 #14 A
+w = u^r
+w = 10001 #2+16=18 A->B
+t = 00011 #1+2=3 B
+wXORt = 10010 #16+2 = 18 Esto devuelve Bartolo
+k = 10010 #2+16 = 18 Esto devuelve Alicia
+#Es decir, devuelven la misma clave Alicia y Bartolo
+"""
+Ahora probaremos que si Eva puede
+ver los mensajes intercambiados,
+entonces puede recuperar la clave
+"""
+
+k = 10010 #18 A     	  #k'=00110    6 
+r = 01110 #14 A 		  #r'=00001    1
+s = k^r             	  #Eva guarda S=11100 y manda uno creado por ella   ****
+s = 11100 #28 A->B 		  #s'=00111    7     Envia éste
+t = 00011 #3 B 			  #t'=10000    16
+u = s^t                   #Eva guarda U=11111    ****
+u = 11111 #31 B->A        #u'=10111    23    Envia éste 
+r = 01110 #14 A           #r'=00001    1     Usa su r' que creo ella para calcular w
+w = u^r                   #Eva guarda W=10001    ****
+w = 10001 #18 A->B        #w'=10110    22    Envia éste 
+t = 00011 #3 B            #t'=10000    16    Usa su t' que creo ella para calcular w^t
+
+wXORt = 10010 #16+2 = 18 Esto devuelve Bartolo               wXORt' = 00110    5 devuelve ésto
+k = 10010 #2+16 = 18 Esto devuelve Alicia                        k' = 00110    5 devuelve ésto
+
+#Y efectivamente son iguales las que ella creo y les mandó.
+#Es decir, podrá leer todos los mensajes que cifren en un futuro         

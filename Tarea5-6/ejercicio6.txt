@@ -1,0 +1,25 @@
+import os
+
+def _urandom():
+	f_byt = os.urandom(16) # Se necesitan 7 bytes
+	f_entero = int.from_bytes(f_byt,'big')
+	return f_entero
+
+s2 = _urandom()
+print("s2:",s2)
+j = (1<<(16*8-1))
+print("j: ",j)
+p = s2 | j
+print("p: ", p)
+"""
+6.- Para qué es el siguiente código? En particular, 
+¿cuál es el significado de la entrada y la salida
+(n y p respectivamente)? ¿Qué propósito tiene la lı́nea 7?
+
+El código es para generar números primos.
+Como parámetro se ingresa una n, que sería 
+el tamaño de bytes del que se quiere el número primo.
+n = 16 y p sería un primo aleatorio de 16 bytes.
+La línea 7 hace un corrimiento de bits de 16 posiciones
+y luego hace un OR con s2
+"""

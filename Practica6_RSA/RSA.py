@@ -145,6 +145,16 @@ class RSA():
 
 
 c=RSA()
-m="Hola mundo como esta, mi nombre es Fernando y estoy cifrando un text con RSA"
-res = c.encrypt(m)
-res2 = c.decrypt(res)
+#m="Hola mundo como esta, mi nombre es Fernando y estoy cifrando un text con RSA"
+#res = c.encrypt(m)
+#res2 = c.decrypt(res)
+
+phi_n=c.__phi__()
+
+"""
+cifrado = 10
+pub_key =(35,5)
+e= 5
+n = 35 = p*q = 7 * 5
+phi_n = (p-1)*(q-1) = 6*4 =24
+"""

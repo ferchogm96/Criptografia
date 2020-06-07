@@ -1,0 +1,17 @@
+a. Recurso accedido, poseedor lícito del recurso, atacante.
+b. Amenaza y vulnerabilidad explotada.
+c. Capas de seguridad que se tuvieron que pasar.
+d. La situación ¿es verosímil, podría ocurrir en la vida real?, ¿por qué sí o por qué
+no?, ¿hay algún contexto en el que podría ocurrir?
+
+La pelicula que escogí es la de "Hackers:Ningún Sistema es Seguro", y tomaré el ejemplo de cuando el equipo de Clay se meten a escondidas al Servicio de Inteligencia Alemán para hackear su sistema, aunque ellos no buscan alguna recomensa monetaria ni de información, en realidad solo buscan respeto y admiración de la comidad hacker.
+A)
+Entonces el recurso accedido sería el entrar al sistema y hacer que las impresoras de la oficina se pusieran a imprimir una imagen sobre ese grupo, para hacerse notar que habían podido hackear su sistema "imposible de hackear" y aparte uno de ellos roba información confidencial, el poseedor lícito sería el Servicio de Inteligencia Alemana y el atacante, el equipo de Hackers autonombrado Clay.
+B)
+La amenaza y vulnerabilidad explotada es que buscan información de un bote de basura, sobre algún trabajador, en éste caso de una persona mayor y le envían el típico truco de un link con virus integrado, con este pueden controlar la computadora y la información de éste trabajador, en éste caso, los trabajadores no estan preparados ni prevenidos para evitar ese tipo de trucos baratos.
+C)
+Aquí se puede notar que pasaron las capas de Consciencia y entrenamiento, Políticas, Procedimientos, Física, Perímetro, Red hasta llegar a los Datos.
+D)
+Si, si podria pasar y que no siempre se toma consciencia ni se prepara a los trabajadores para evitar ese tipo de amenazas.
+Y podría ocurrir en contextos sobre oficinas de gobierno aqui en México, ya que muchos trabajadores no estan preparados, ni estan conscientes de que éstas cosas son posibles.
+Pero analizando el costo sobre lo que en realidad se ganaría por romper esa seguridad, no conviene monetariamente, sería más lo que pierdes de lo que ganas.

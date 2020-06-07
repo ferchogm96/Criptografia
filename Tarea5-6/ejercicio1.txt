@@ -1,0 +1,76 @@
+from random import randint
+from prime_generator import generate_prime
+#----------------------------------------------
+#EJERCICIO A)
+
+n = 35
+#n=35 =p*q=7*5
+#p=7
+#q=5
+#esto se puede ya que son primos que multiplicados dan 35=n
+e = 5
+phi_n = 24
+#phi_n = (p-1)*(q-1) = (7-1*(5-1) = 24
+
+def AEE(a,b):
+        if b == 0:
+            return 0,1,0
+        u0 = 1
+        u1 = 0
+        v0 = 0
+        v1 = 1
+        while b != 0:
+            q = a//b
+            r = a - b * q
+            u = u0 - q * u1
+            v = v0 - q * v1
+            #Update a,b
+            a = b
+            b = r
+            #Update for next iteration
+            u0 = u1
+            u1 = u
+            v0 = v1
+            v1 = v
+        return  u0
+
+d = AEE(e,phi_n)
+print (d)
+#m = ax +by
+#1 = 5(5)+24(-1)
+#d = 5
+#n = 35
+#(n,d) =(35,5)
+#mensaje claro = c^d mod(n)
+#m = 10^5 % 35
+#m = 5
+
+#----------------------------------------
+#EJERCICIO B)
+n = 3599
+e = 31
+x=0
+y=0
+"""
+while not (x*y==3599):
+	x = randint(1,3599)
+	y = randint(1,3599)
+print ("x: ",x ,"y: ",y)
+x1 = miller_rabin(61)
+y1 = miller_rabin(59)
+"""
+#entonces con esto sabemos que n = p*q = 59*61
+#phi_n = (59-1)*(61-1) = 3480
+phi_n = 3480
+
+for d in range(0,5000):
+	if(31*d)%3480 == 1:
+		print(d)
+#d = 3031
+#n = 3599
+#private_key = (n,d) =(3599,3031)
+
+
+
+
+

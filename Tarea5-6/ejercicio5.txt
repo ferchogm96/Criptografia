@@ -1,0 +1,29 @@
+pk = public key # entidad T publica
+cA = encrypt(bA,pk)  #Alice lo manda a Bob y T
+cB = encrypt(bB,pk)  #Bob lo manda a Alice y T
+
+bA = decrypt(cA,pk)
+bB = decrypt(cB,pk)
+#T anuncia el resultado
+bA^bB = bS  #Bit de salida
+
+#PREGUNTA A)
+Supón que Bob actúa honestamente pero Alice no. 
+¿Por qué aun ası́ el bit de salida es aleatorio?
+"""
+Porque no hay forma de que Alice haga trampa, lo único que
+tendria que hacer es crear un bit aleatorio,
+y aunque el bit de Alice sea falso, el de Bob también es aleatorio
+y al aplicarles XOR, se fusiona aun más. Da igual si miente o no.
+No puede predecir nada por que no hay mas información.
+"""
+
+#PREGUNTA B)
+Supón que en el protocolo se usa el cifrado de El Gamal. 
+Muestra de qué forma Bob puede manipular el bit de salida
+para que resulte lo que él quiera. 
+(Un bit b se codifica como el elemento g^b .)
+Fácil, porque tenemos la base de g^b, entonces si Alice tomw 1,
+el resultado es "g", y si eligió 0, el resultado es "1".
+Asi ya sabe que puede escoger para manipular el resultado.
+Ya que el recibe primero el cA, se fija y manda su cB manipulado.
